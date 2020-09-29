@@ -1,12 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 
 from siuSiteTest import WebDriverTest
-import smtplib
-from email.message import EmailMessage
-import sys
-import builtins
-import logging
-import subprocess
 
 rd = WebDriverTest("firefox")
 # rd.setBrowserPath("/opt/firefox/firefox")
