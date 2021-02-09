@@ -11,7 +11,7 @@ elem = rd.driver.find_element_by_link_text("Sign in with SIU SSO")
 elem.click()
 
 # rd.login("UserName", "Password", "email/netid", "password", "submitButton")
-rd.login("UserName", "Password", "SIU921000021", "]V.TZbHIrkBDxOzEWzQ{", "submitButton")
+rd.login("UserName", "Password", "", "", "submitButton")
 
 
 rd.driver.implicitly_wait(5)
