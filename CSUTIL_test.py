@@ -18,11 +18,12 @@ driver.switch_to.window(window_after)
 
 email = driver.find_element_by_id("userNameInput")
 email.clear()
-email.send_keys("SIU921000021")
+email.send_keys("")
 
 password = driver.find_element_by_name("Password")
 password.clear()
-password.send_keys("]V.TZbHIrkBDxOzEWzQ{")
+password.send_keys("")
+
 
 login_button = driver.find_element_by_id("submitButton")
 login_button.click()
